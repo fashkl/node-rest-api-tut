@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/602c382d2f6a77497076f45b
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "32Ali2",
+    "subscriberToChannel": "subscriber To Channel"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/602c38342f6a77497076f45c
+
+
+###
+PATCH   http://localhost:3000/subscribers/602c38392f6a77497076f45d
+Content-Type: application/json
+
+{
+    "name": "New name"
+}
